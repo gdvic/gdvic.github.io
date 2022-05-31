@@ -19,7 +19,6 @@
   <link rel="canonical" href="https://gdvic.github.io/" />
   <link rel="shortcut icon" href="https://gdvic.github.io/static/logo.ico">
 
-  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <meta name="theme-color" content="#d1d1e0" />
@@ -34,9 +33,12 @@
 
   
   
-  
+  <!-- Links & scripts to be loaded  -->
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="/static/logo.ico">
+  <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="floating-wpp.css">
+  <script type="text/javascript" src="floating-wpp.js"></script>
   
   
 </head>
@@ -45,7 +47,35 @@
     
     
     
-    <title>GDVIC - Best School in Tharwai </title>
+    <title>GDVIC - Best School in Tharwai, Bhidiura </title>
+    <!-- Web Assistant -->
+<style>
+    body {
+      font-family: Arial, Helvetica, sans-serif
+  }
+</style>
+</head>
+
+<body>
+<div id="myButton"></div>
+</body>
+
+<script type="text/javascript">
+$(function () {
+  $('#myButton').floatingWhatsApp({
+      phone: '919792962997',
+      popupMessage: 'नमस्ते , हम आपकी कैसे मदद कर सकते हैं 😄?',
+      message: "मैं स्कूल में प्रवेश प्रक्रिया के बारे में के बारे में जानना चाहता हूँ 😄 !",
+      showPopup: true,
+      showOnIE: false,
+      headerTitle: 'Namaskar!',
+      headerColor: 'green',
+      backgroundColor: 'green',
+      buttonImage: '<img src="whatsapp.svg" />'
+  });
+});
+</script>
+    <!-- web bot  -->
 
 
    
@@ -389,6 +419,4 @@
   </body>
   </html>
     
-  <!-- <a  href='https://api.whatsapp.com/send?phone=919792962997
-        &text=Hello mein  aapse school ki jankari lena chahta hu.' class="fa fa-whatsapp" target="_blank">
-        </a> -->
+ 
