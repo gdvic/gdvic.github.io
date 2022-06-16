@@ -11,24 +11,21 @@
 		</url>
 
 		<url>
-			<loc>https://gdvic.github.io/contact.html</loc>
+			<loc>https://gdvic.github.io/contact-us.html</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 
 		<url>
-			<loc>https://gdvic.github.io/msg.html</loc>
+			<loc>https://gdvic.github.io/message-from-principal.html</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 
 		<url>
-			<loc>https://gdvic.github.io/sub.html</loc>
+			<loc>https://gdvic.github.io/subjects-available.html</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 
-		<url>
-			<loc>https://gdvic.github.io/t.html</loc>
-			<changefreq>weekly</changefreq>
-		</url>
+		
 
 	</urlset>
 
